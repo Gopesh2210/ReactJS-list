@@ -1,0 +1,29 @@
+.spacing{
+    margin: 2em 0;
+}
+.card-style{
+    width: 75%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.text-01{
+    font-style: oblique;
+    font-weight: bolder !important;
+}
+
+.popoverText{
+    font-size: 1.5em;
+    color: azure;
+    background-color: black;
+    padding: 0.5em;
+}
+.inline-container{
+    display: flex;
+    flex-direction: row;
+}
+.conditional-text{
+    padding: 14px;
+    font-weight: bolder;
+    color: #f29e29;
+}

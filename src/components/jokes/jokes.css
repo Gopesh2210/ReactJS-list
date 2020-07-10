@@ -1,0 +1,37 @@
+.container{
+  margin: 5em 0;
+}
+
+.accordianTemplate{
+  background-color: black !important;
+  margin: auto !important;
+  width: 75% !important;
+}
+.jokes-title{
+  text-align: center;
+  color: black;
+  font-size: 2em;
+  margin: 0.5em 0;
+}
+.tip{
+  text-align: center;
+  color: black;
+  font-size: 1.25em;
+  margin: 1em 0;
+}
+.MuiAccordionSummary-expandIcon{
+  color: white !important;
+}
+.plot-text{
+    color: white;
+    font-weight: bolder !important;
+    font-size: 1.5em !important;
+}
+.punchline-text{
+    color: white;
+    font-weight: bolder !important;
+    font-size: 1em !important;
+}
+.jokes-background {
+  background-color: #f29e29 !important;
+}

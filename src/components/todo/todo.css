@@ -1,0 +1,53 @@
+.notesText{
+    color: #f29e29;
+    margin: 1em 1em;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.list-box{
+    margin: 1em;
+    margin-bottom: 4em;
+    border: 1px solid black;
+}
+.list-items{
+    margin-top: 2em;
+}
+.items-container{
+    margin: 0 0 2em 1em;
+}
+
+.checklist-container{
+    display: flex;
+    margin-bottom: 0.25em;
+}
+/* .checkbox-container{
+
+} */
+
+.MuiCheckbox-root{
+    color: #f29e29 !important;
+}
+.title-container{
+    margin-top: 0.6em;
+}
+
+.title{
+    color: white;
+    font-weight: bold;
+}
+
+.content-container{
+    margin: 0 2.5em;
+}
+.content{
+    color:white;
+    font-weight: 500;
+}
+.content-complete{
+    color: gray;
+    font-weight: 500;
+}
+.strike {
+    text-decoration: line-through;
+}

@@ -1,0 +1,18 @@
+.notesText{
+    color: #f29e29;
+    margin: 1em 1em;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.list-box{
+    margin: 1em;
+    margin-bottom: 4em;
+    border: 1px solid black;
+}
+.list-items{
+    margin-top: 2em;
+}
+.background{
+    background-color: black !important;
+}
