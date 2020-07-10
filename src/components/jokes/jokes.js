@@ -17,7 +17,6 @@ class Jokes extends React.Component {
             punchline: ""
         }
     }
-
     componentDidMount() {
         this.setState({isLoading:true})
         fetch('https://official-joke-api.appspot.com/jokes/random')
