@@ -1,18 +1,25 @@
+
 .notesText{
     color: #f29e29;
-    margin: 1em 1em;
+    margin: 1em 2.5em !important;
     font-size: 2em;
     font-weight: bold;
 }
 
 .list-box{
-    margin: 1em;
-    margin-bottom: 4em;
-    border: 1px solid black;
+    margin: 0 2em 2em 2em !important;
+    border: 5px solid #f29e29 !important;
 }
 .list-items{
     margin-top: 2em;
 }
-.background{
+.card-content{
     background-color: black !important;
+}
+
+.add-btn-container{
+    text-align: right;
+}
+.add-btn{
+    background-color: #f29e29 !important;
 }
