@@ -19,14 +19,13 @@ class Jokes extends React.Component {
     }
     componentDidMount() {
         this.setState({isLoading:true})
-        fetch('https://official-joke-api.appspot.com/jokes/random')
+        fetch('https://api.chucknorris.io/jokes/random')
             .then(response => response.json())
             .then(data => {
                 console.log(data)
                 this.setState({
                     isLoading: false,
-                    plot: data.setup,
-                    punchline: data.punchline
+                    plot: data.value,
                 })
             });
     }

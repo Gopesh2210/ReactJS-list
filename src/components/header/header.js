@@ -21,7 +21,7 @@ function Header() {
             <div className="header-items">
                 <div className={activeTab===""?'active-header-tab':'header-tab'} onClick={() => routing("")}><p className="header-text">Notes</p></div>
                 <div className={activeTab==="jokes"?'active-header-tab':'header-tab'} onClick={() => routing("jokes")}><p className="header-text">Jokes</p></div>
-                <div className={activeTab==="aboutme"?'active-header-tab':'header-tab'} onClick={() => routing("aboutme")}><p className="header-text">About Me</p></div>
+                <div className={activeTab==="aboutme"?'active-header-tab':'header-tab'} onClick={() => routing("aboutme")}><p className="header-text">Say Hi</p></div>
             </div>
         </header>
     );
